@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Seva from './pages/Seva'
 import Gallary from './pages/Gallary'
+import Trust from './pages/Trust'
+import Maps from './components/Maps'
 const App = () => {
   
   return (
@@ -13,6 +15,8 @@ const App = () => {
    <About />
    <Seva />
    <Gallary/>
+   <Trust/>
+   <Maps/>
     </>
   )
 }
